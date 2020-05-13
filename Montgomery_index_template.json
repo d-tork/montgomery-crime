@@ -30,10 +30,6 @@
       "End_Date_Time": {"type": "date"},
       "Latitude": {"type": "float"},
       "Longitude": {"type": "float"},
-      "location": {
-		  "type": "geo_point",
-		  "ignore_malformed": true
-	  },
       "Police District Number": {"type": "keyword"},
       "Location": {"type": "geo_point"},
 			"created_at": {"type": "date"}

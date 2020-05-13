@@ -31,7 +31,9 @@
       "Latitude": {"type": "float"},
       "Longitude": {"type": "float"},
       "Police District Number": {"type": "keyword"},
-      "Location": {"type": "geo_point"},
+      "Location": {"type": "string"},
+			"geolocation1": {"type": "geo_point"},
+			"geolocation2": {"type": "geo_point"},
 			"created_at": {"type": "date"}
     }
   }

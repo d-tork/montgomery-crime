@@ -7,7 +7,7 @@
       "CR Number": {"type": "integer"},
       "Dispatch Date / Time": {
 				"type": "date",
-				"format": "MM/dd/yyy kk:mm:ss a||strict_date_optional_time"
+				"format": "MM/dd/yyyy hh:mm:ss a||strict_date_optional_time"
 			},
       "NIBRS Code": {"type": "keyword"},
       "Victims": {"type": "short"},
@@ -31,11 +31,11 @@
       "Street Type": {"type": "keyword"},
       "Start_Date_Time": {
 				"type": "date",
-				"format": "MM/dd/yyy kk:mm:ss a||strict_date_optional_time"
+				"format": "MM/dd/yyyy hh:mm:ss a||strict_date_optional_time"
 			},
       "End_Date_Time": {
 				"type": "date",
-				"format": "MM/dd/yyy kk:mm:ss a||strict_date_optional_time"
+				"format": "MM/dd/yyyy hh:mm:ss a||strict_date_optional_time"
 			},
       "Latitude": {"type": "float"},
       "Longitude": {"type": "float"},

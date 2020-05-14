@@ -5,7 +5,7 @@
       "Incident ID": {"type": "integer"},
       "Offence Code": {"type": "short"},
       "CR Number": {"type": "integer"},
-      "Dispatch Date / Time": {
+      "Dispatch_Date_Time": {
 				"type": "date",
 				"format": "MM/dd/yyyy hh:mm:ss a||strict_date_optional_time"
 			},
@@ -18,7 +18,7 @@
       "Block Address": {"type": "keyword"},
       "City": {"type": "keyword"},
       "State": {"type": "keyword"},
-      "Zip Code": {"type": "integer"},
+      "Zip Code": {"type": "keyword"},
       "Agency": {"type": "keyword"},
       "Place": {"type": "keyword"},
       "Sector": {"type": "keyword"},
@@ -40,10 +40,8 @@
       "Latitude": {"type": "float"},
       "Longitude": {"type": "float"},
       "Police District Number": {"type": "keyword"},
-      "Location": {"type": "text"},
-			"geolocation1": {"type": "geo_point"},
-			"geolocation2": {"type": "geo_point"},
-			"created_at": {"type": "date"}
+			"string_coords": {"type": "text"},
+			"geo_location": {"type": "geo_point"}
     }
   }
 }
